@@ -1,0 +1,97 @@
+:root {
+    --primary-color: #5f50f1;
+    --grey-color: rgb(158, 155, 153);
+    --blue-color: #a8bcd4;
+    --red-color: #f63400;
+    --cyan-color: #25bdb0;
+    --black-color: black;
+    --white-color: white;
+    --pink-color: #fcc6de;
+    --brown-color: #ad8111;
+
+}
+
+.mg-left-right-174 {
+    margin: 0 174px;
+}
+
+.pd-left-right-174 {
+    padding-left: 174px;
+    padding-right: 174px;
+}
+
+.pd-bot-50{
+    padding-bottom: 50px;
+}
+
+.pd-top-50 {
+    padding-top: 50px;
+}
+
+.mg-top-42 {
+    margin-top: 42px;
+}
+
+.mg-bot-42 {
+    margin-bottom: 42px;
+} 
+
+.color--brown,
+.color--grey,
+.color--pink,
+.color--black,
+.color--cyan,
+.color--red,
+.color--blue {
+    border-radius: 50%;
+    /* width: 26px;
+    height: 26px; */
+}
+
+.color--blue {
+    background-color: var(--blue-color);
+}
+
+.color--red {
+    background-color: var(--red-color);
+}
+
+.color--cyan {
+    background-color: var(--cyan-color);
+}
+.color--black {
+    background-color: var(--black-color);
+}
+
+.color--pink {
+    background-color: var(--pink-color);
+}
+
+.color--grey {
+    background-color: var(--grey-color);
+}
+
+.color--brown {
+    background-color: var(--brown-color);
+}
+
+@keyframes fadeIn {
+    from {opacity:0;}
+    to {opacity:1;}
+}
+
+@keyframes fadeIn_2 {
+    from {opacity:0.5;}
+    to {opacity:1;}
+}
+
+@keyframes action {
+    from { 
+    opacity: 0.3;
+    transform: translateY(50px); 
+    }
+    to { 
+        opacity: 1;
+        transform: translateY(-1px); 
+    }
+}
